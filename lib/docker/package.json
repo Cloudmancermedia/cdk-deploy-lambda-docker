@@ -1,0 +1,17 @@
+{
+  "name": "lambda-docker",
+  "version": "1.0.0",
+  "description": "A simple Lambda function using Docker",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "uuid": "10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.5.2",
+    "@types/aws-lambda": "8.10.140",
+    "@types/uuid": "10.0.0"
+  }
+}
